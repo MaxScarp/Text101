@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0f528ab90bd9d04996a8b3c88012d0a, type: 3}
-  m_Name: State1
+  m_Name: StartingState
   m_EditorClassIdentifier: 
   storyText: "L'atterraggio non \xE8 stato dei migliori.\nSei confuso e fatichi ad
     orientarti.\nCerchi di respirare ma ti manca l'aria.\nAll'improvviso ricordi ogni
@@ -17,3 +17,7 @@ MonoBehaviour:
     deriva nello spazio mentre fuggivi da ... Senti dei rumori provenire di fronte
     a te ... Non riesci a vedere nulla, \xE8 troppo buio.\n\n1. Provi ad alzarti.\n2.
     Rimani immobile e ti fingi morto.\n3. Chiedi aiuto ad alta voce."
+  nextStates:
+  - {fileID: 11400000, guid: 45ab135a7862ee748af7414e713fe467, type: 2}
+  - {fileID: 11400000, guid: 2cca56f9e896dc6458107fad3f53ecfc, type: 2}
+  - {fileID: 11400000, guid: 7743815b5293a4e4db3d07e4b69ab1cb, type: 2}
