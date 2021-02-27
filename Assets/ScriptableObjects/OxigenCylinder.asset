@@ -11,5 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0f528ab90bd9d04996a8b3c88012d0a, type: 3}
   m_Name: OxigenCylinder
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: Oxigen Cylinder found.
+  nextStates:
+  - {fileID: 11400000, guid: 964519ea6afcc5d4db09e912c5dbc410, type: 2}
+  - {fileID: 11400000, guid: 45ab135a7862ee748af7414e713fe467, type: 2}
+  - {fileID: 11400000, guid: 7743815b5293a4e4db3d07e4b69ab1cb, type: 2}

@@ -15,4 +15,5 @@ MonoBehaviour:
     e per te non vi \xE8 pi\xF9 speranza ormai.\n\nMentre esali il tuo ultimo respiro
     vedi il tuo assassino lanciartisi contro con le fauci spalancate, non era umano...\n\n1.
     Ricomincia da capo."
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 964519ea6afcc5d4db09e912c5dbc410, type: 2}
