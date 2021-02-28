@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: Intro
   m_EditorClassIdentifier: 
   storyText: "Stai per iniziare un librogame di test creato da Massimiliano Scarpetta.\n\nAd
-    ogni sezione ti verr\xE0 chiesto di selezionare da 1 a 3 opzioni, per farlo di
-    baster\xE0 premere il tasto corrispodnente sulla tastiera (i tasti numerati da
-    1 a 3).\n\nIn qualsiasi momento puoi premere il tasto 'q' per uscire dal gioco.
-    \n\n1. Inizia il gioco."
+    ogni sezione ti verra' chiesto di selezionare un'opzione, per farlo di bastera'
+    premere il tasto corrispondente sulla tastiera (i tasti numerati da 1 a 3).\n\nIn
+    qualsiasi momento puoi premere il tasto 'q' per uscire dal gioco. \n\n1. Inizia
+    il gioco."
   nextStates:
   - {fileID: 11400000, guid: 964519ea6afcc5d4db09e912c5dbc410, type: 2}
