@@ -11,33 +11,31 @@ public class AdventureGame : MonoBehaviour {
 	State state;
 
 	// Use this for initialization
-	void Start ()
+	void Start()
 	{
 		state = startingState;
 		textComponent.text = state.GetStateStory();
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void Update()
 	{
 		ManageState();
 	}
 
+	/// <summary>
+	/// Controlla i vari stati di tutto il gioco.
+	/// </summary>
 	private void ManageState()
     {
 		var nextStates = state.GetNextStates();
 
-		if (Input.GetKeyDown(KeyCode.Alpha1))
+		for (int i = 0; i < nextStates.Length; i++)
 		{
-			state = nextStates[0];
-		}
-		else if(Input.GetKeyDown(KeyCode.Alpha2))
-        {
-			state = nextStates[1];
-        }
-		else if(Input.GetKeyDown(KeyCode.Alpha3))
-        {
-			state = nextStates[2];
+			if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+            {
+				state = nextStates[i];
+            }
         }
 
 		textComponent.text = state.GetStateStory();
