@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f528ab90bd9d04996a8b3c88012d0a, type: 3}
+  m_Name: Neck
+  m_EditorClassIdentifier: 
+  storyText: "Con entrambe le mani afferri il suo capo e con un movimento breve e
+    deciso le spezzi il collo.\r\nTi senti soddisfatto, ti e' quasi piaciuto farlo,
+    forse dovresti spezzarti anche il tuo... perch\xE8 no? Sembra divertente...\r\n\r\n1.
+    Spezzati il collo.\r"
+  nextStates:
+  - {fileID: 11400000, guid: 17440e9d019e2df489d72624a8cda54e, type: 2}

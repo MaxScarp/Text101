@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f528ab90bd9d04996a8b3c88012d0a, type: 3}
+  m_Name: WTF
+  m_EditorClassIdentifier: 
+  storyText: "Ispezioni il corpo, non sembra avere alcuna ferita... non hai nemmeno
+    il tempo di pensare che ad appena pochi centimetri da Katia noti viscere sparse
+    su tutto il muro... controlli e ricontrolli che Katia stia bene... sta bene, non
+    ha ferite, di chi e' quella roba sul muro? Eravate veramente soli sulla navicella?
+    Ti sforzi per cercare di ricordare ma nulla.\r\n\r\n1. Se hai una torcia al plasma
+    puoi ispezionare il muro.\r\n2. E se quella non fosse davvero Katia? Magari e'
+    un impostore, forse \xE8 meglio spezzarle il collo...\r\n3. Apri il portellone
+    per uscire dalla navicella e schiarirti le idee."
+  nextStates:
+  - {fileID: 11400000, guid: 0109ed360d416484087ab79b320f8605, type: 2}
+  - {fileID: 11400000, guid: 75732090c4d7cf242b184e706a92810d, type: 2}
+  - {fileID: 11400000, guid: 119c5f8eb89671241b9faec25b8c5163, type: 2}

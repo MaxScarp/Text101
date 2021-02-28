@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f528ab90bd9d04996a8b3c88012d0a, type: 3}
+  m_Name: Alone
+  m_EditorClassIdentifier: 
+  storyText: "Punti la tua nuova arma contro l'origine dei rumori ed urli:\"Chi c'e'?\"...
+    Nessuna risposta... Forse hai preso una botta in testa e l'immaginazione ti gioca
+    brutti scherzi... Un senso di angoscia ti pervade all'improvviso, un pensiero
+    fisso si insidia nella tua mente... Sono rimasto solo?... No, non pu\xF2 essere,
+    c'era Katia con te prima dello schianto, deve essere qui da qualche parte.\r\n\r\n1.
+    Provi a cercare Katia, tua moglie e compagnia di viaggio?\r\n2. Vai in direzione
+    della luce, e della probabile uscita, cercando di ignorare i tuoi pensieri.\r\n3.
+    Probabilmente non vi e' piu' speranza per te, ti punti l'arma in testa e premi
+    il grilletto."
+  nextStates:
+  - {fileID: 11400000, guid: 7452777ca4c242d4b8529c7371dc6107, type: 2}
+  - {fileID: 11400000, guid: 7452777ca4c242d4b8529c7371dc6107, type: 2}
+  - {fileID: 11400000, guid: 7743815b5293a4e4db3d07e4b69ab1cb, type: 2}

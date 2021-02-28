@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f528ab90bd9d04996a8b3c88012d0a, type: 3}
+  m_Name: KatiaV2
+  m_EditorClassIdentifier: 
+  storyText: "Improvvisamente i rumori ricominciano e si trasformano in lamenti, e'
+    la voce di Katia, tua moglie e compagna di viaggio, sembra stia soffrendo molto.\r\nSenza
+    ulteriori indugi ti dirigi immediatamente verso la fonte del suono.\r\nNon avendo
+    una vera fonte di luce riesci solo a dirigerti, a tentoni, verso il portellone
+    d'uscita oltre il quale proviene il segnale luminoso di emergenza.\r\nNon riesci
+    piu' a sentire Katia e non riesci a trovarla a causa del buio.\r\nRaggiungi il
+    portellone con meno difficolta' del previsto.\r\n\r\n1. Apri il portellone per
+    uscire dalla navicella.\r\n2. Probabilmente non vi e' pi\xF9 speranza per te,
+    decidi di toglierti il casco e di porre fine alle tue angosce."
+  nextStates:
+  - {fileID: 11400000, guid: 119c5f8eb89671241b9faec25b8c5163, type: 2}
+  - {fileID: 11400000, guid: 7743815b5293a4e4db3d07e4b69ab1cb, type: 2}

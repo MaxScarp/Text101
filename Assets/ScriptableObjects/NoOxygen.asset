@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f528ab90bd9d04996a8b3c88012d0a, type: 3}
+  m_Name: NoOxygen
+  m_EditorClassIdentifier: 
+  storyText: "\rTi avvicini silenziosamente alla bombola e la raccogli, e' pesante,
+    prima di assicurarla alla cintura la ispezioni e noti che ha un piccolo buco sul
+    fondo dal quale sta uscendo lentamente del liquido biancastro.\r\nSicuramente
+    da qui non riuscirai piu' a ricavare ossigeno.\r\nControlli i parametri vitali
+    della tua tuta, indicano tutti che hai abbastanza ossigeno per 48 ore.\r\n\r\n1.
+    Assicuri comunque la bombola alla cintura, non si sa mai... \r\n2. Lasci a terra
+    la bombola e vai in direzione della luce e della probabile uscita.\r"
+  nextStates:
+  - {fileID: 11400000, guid: ebc225e2adb0be645aefe06cfbae55d2, type: 2}
+  - {fileID: 11400000, guid: ebc225e2adb0be645aefe06cfbae55d2, type: 2}

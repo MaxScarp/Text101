@@ -11,8 +11,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0f528ab90bd9d04996a8b3c88012d0a, type: 3}
   m_Name: PlasmaLight
   m_EditorClassIdentifier: 
-  storyText: Plasma light found.
+  storyText: "Riesci ad alzarti facendo poco rumore, ti rendi conto di non essere
+    ferito.\r\nNoti della luce provenire ad intermittenza dalla tua sinistra.\r\nDeve
+    essere sicuramente un lampeggiante di emergenza di qualche tipo.\r\nQuesti lampeggianti
+    sono utilizzati solamente nelle navi minerarie o nelle scialuppe di salvataggio...
+    i rumori si fanno sempre piu' intensi ma grazie alla luce riesci a raggiungere
+    lo scaffale sulla tua destra ed a raccogliere una torcia al plasma... potrebbe
+    salvarti la vita in caso di pericolo.\r\n\r\n1. Chiedi a chiunque si aggiri nell'ombra
+    di farsi vedere.\r\n2. Vai in direzione della luce, e della probabile uscita,
+    ignorando i rumori.\r\n3. Attendi in posizione di guardia."
   nextStates:
-  - {fileID: 11400000, guid: 964519ea6afcc5d4db09e912c5dbc410, type: 2}
-  - {fileID: 11400000, guid: 2cca56f9e896dc6458107fad3f53ecfc, type: 2}
-  - {fileID: 11400000, guid: 7743815b5293a4e4db3d07e4b69ab1cb, type: 2}
+  - {fileID: 11400000, guid: d79cd33ca4030c041923eb553e6f95c8, type: 2}
+  - {fileID: 11400000, guid: 7452777ca4c242d4b8529c7371dc6107, type: 2}
+  - {fileID: 11400000, guid: 7452777ca4c242d4b8529c7371dc6107, type: 2}

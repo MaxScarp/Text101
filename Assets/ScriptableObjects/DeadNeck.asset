@@ -9,11 +9,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0f528ab90bd9d04996a8b3c88012d0a, type: 3}
-  m_Name: DeadState
+  m_Name: DeadNeck
   m_EditorClassIdentifier: 
-  storyText: "Ancora prima di aver mosso un muscolo senti un dolore lancinante al
-    ventre, le tue viscere sono sparse ovunque e per te non vi e' piu' speranza ormai.\r\n\r\nMentre
-    esali il tuo ultimo respiro vedi il tuo assassino lanciartisi contro con le fauci
-    spalancate, non era umano...\r\n\r\n1. Ricomincia da capo."
+  storyText: "Dopo aver cercato di resistere alla tua stessa mente ti rendi conto
+    che forse e' la cosa giusta da fare, sembra quasi che la tua morte abbia un senso...
+    un fine superiore alla tua immaginazione ed ancora non comprensibile al comune
+    essere umano... afferri con decisione il tuo casco e...\r\n\r\n1. Ricomincia da
+    capo.\r"
   nextStates:
   - {fileID: 11400000, guid: 964519ea6afcc5d4db09e912c5dbc410, type: 2}

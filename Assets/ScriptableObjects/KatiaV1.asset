@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f528ab90bd9d04996a8b3c88012d0a, type: 3}
+  m_Name: KatiaV1
+  m_EditorClassIdentifier: 
+  storyText: "Improvvisamente i rumori si trasformano in lamenti, e' la voce di Katia,
+    tua moglie e compagna di viaggio, sembra stia soffrendo molto.\r\nSenza ulteriori
+    indugi ti dirigi immediatamente verso la fonte del suono.\r\nGrazie alla torcia
+    al plasma riesci a vedere chiaramente intorno a te, vicino al portellone d'uscita
+    giace una figura femminile, ti avvicini per guardarle il volto, e' Katia, sembra
+    svenuta.\n \r\n1. Controlli meglio il corpo per vedere se sia ferita.\r\n2. Credi
+    che la tua mente ti stia giocando un brutto scherzo e decidi di aprire il portellone
+    per uscire dalla navicella.\r\n3. Probabilmente non vi e' pi\xF9 speranza per
+    te, ti punti l'arma in testa e premi il grilletto."
+  nextStates:
+  - {fileID: 11400000, guid: e324add6463a04d4f978194eb093f361, type: 2}
+  - {fileID: 11400000, guid: 119c5f8eb89671241b9faec25b8c5163, type: 2}
+  - {fileID: 11400000, guid: 7743815b5293a4e4db3d07e4b69ab1cb, type: 2}
