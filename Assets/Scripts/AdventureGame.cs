@@ -21,6 +21,11 @@ public class AdventureGame : MonoBehaviour {
 	void Update()
 	{
 		ManageState();
+
+		if(Input.GetKeyDown(KeyCode.Q))
+        {
+			QuitGame();
+        }
 	}
 
 	/// <summary>
@@ -39,5 +44,17 @@ public class AdventureGame : MonoBehaviour {
         }
 
 		textComponent.text = state.GetStateStory();
+	}
+
+	/// <summary>
+	/// Metodo che controlla se sono nell'editor o nel vero gioco e poi spegne il gioco.
+	/// </summary>
+	private void QuitGame()
+    {
+		#if UNITY_EDITOR
+				UnityEditor.EditorApplication.isPlaying = false;
+		#else
+				 Application.Quit();
+		#endif
 	}
 }
